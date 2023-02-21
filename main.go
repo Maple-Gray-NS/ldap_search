@@ -26,7 +26,7 @@ type CLI_Arugment struct {
 }
 
 func main() {
-	parser := argparse.NewParser("LDAP_GPO_Seacher", "A small program to locate the GPO from from its name")
+	parser := argparse.NewParser("ldap_search", "A small program to locate the GPO from from its name")
 	user := parser.String("u", "user", &argparse.Options{Required: true, Help: "Valid AD User"})
 	password := parser.String("p", "password", &argparse.Options{Required: true, Help: "Valid AD Password"})
 	domain := parser.String("d", "domain", &argparse.Options{Required: true, Help: "DNS Domain Name"})

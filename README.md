@@ -4,8 +4,8 @@
 A tool I built to assist me with finding GPO locations based off their name. It is not perfect.
 
 ```
-go run main.go -u maple -p Welcome9 -d netspi.local -t 192.168.1.1 -P 'Configure Local' -h
-usage: LDAP_GPO_Seacher [-h|--help] -u|--user "<value>" -p|--password "<value>"
+ldap_search -u maple -p Welcome9 -d netspi.local -t 192.168.1.1 -P 'Configure Local' -h
+usage: ldap_search [-h|--help] -u|--user "<value>" -p|--password "<value>"
                         -d|--domain "<value>" -t|--ldap-server "<value>"
                         -P|--policy "<value>"
 
@@ -22,7 +22,7 @@ Arguments:
   ```
   
  ```
- go run main.go -u maple -p Welcome9 -d netspi.local -t 192.168.1.1 -P 'Configure Local'
+ ldap_search -u maple -p Welcome9 -d netspi.local -t 192.168.1.1 -P 'Configure Local'
   
 Results found
 Policy Name: Configure Local Accounts
