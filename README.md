@@ -1,7 +1,12 @@
 ﻿# ldap_search
-
-
-A tool I built to assist me with finding GPO locations based off their name. It is not perfect.
+ A tool I built to assist me with finding GPO locations based off their name. It is not perfect.
+ 
+ # Install
+ ```
+ go install github.com/Maple-Gray-NS/ldap_search
+ ```
+ 
+# Usage
 
 ```
 go run main.go -u maple -p Welcome9 -d netspi.local -t 192.168.1.1 -P 'Configure Local' -h
