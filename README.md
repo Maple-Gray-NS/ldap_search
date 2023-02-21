@@ -1,7 +1,7 @@
 ﻿# ldap_search
 
 ```
-go run main.go -u ***REMOVED*** -p Welcome9 -d ***REMOVED*** -t ***REMOVED***.***REMOVED*** -P 'Configure Local' -h
+go run main.go -u maple -p Welcome9 -d netspi.local -t 192.168.1.1 -P 'Configure Local' -h
 usage: LDAP_GPO_Seacher [-h|--help] -u|--user "<value>" -p|--password "<value>"
                         -d|--domain "<value>" -t|--ldap-server "<value>"
                         -P|--policy "<value>"
